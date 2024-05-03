@@ -87,23 +87,32 @@
   
   <h2>Estrutura do Projeto</h2> 
 
-  📁 src
-├── 📁 components
-│   ├── Header.js
-│   ├── DescriptionSection.js
-│   ├── ProjectsSection.js
-│   ├── LanguageSelector.js
-│   └── Footer.js
-├── 📁 translations
-│   ├── messages_en.json
-│   ├── messages_pt.json
-│   ├── messages_es.json
-│   ├── messages_fr.json
-│   ├── messages_ru.json
-│   └── messages_jp.json
-├── 📁 scss
-│   └── global.scss
-└── App.js
+├─ 📁 src <br> 
+├── 📁 components <br>
+│   ├── Header.js <br>
+│   ├── DescriptionSection.js <br>
+│   ├── ProjectsSection.js <br>
+│   ├── LanguageSelector.js <br>
+│   └── Footer.js <br>
+
+├── 📁 translations <br>
+│   ├── messages_en.json <br>
+│   ├── messages_pt.json <br>
+│   ├── messages_es.json <br>
+│   ├── messages_fr.json <br>
+│   ├── messages_ru.json <br>
+│   └── messages_jp.json <br>
+
+├── 📁 scss <br>
+│   ├── global.scss <br>
+│   ├── descriptionsection.scss <br>
+│   ├── footer.scss <br>
+│   ├── header.css <br>
+│   ├── languageselector.scss <br>
+│   └── projectcard.scss <br>
+│   └── messages_jp.json <br>
+
+└── App.js <br>
 
 <ul>
 <li> src: É a pasta raiz do seu projeto.</li>
