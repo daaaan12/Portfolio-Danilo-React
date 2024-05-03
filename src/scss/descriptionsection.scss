@@ -11,6 +11,13 @@
        font-family: 'Libre Baskerville', serif;
      }
    }
+
+   .container-sociais {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+   }
  
    .icones-sociais {
      padding: 1rem;
