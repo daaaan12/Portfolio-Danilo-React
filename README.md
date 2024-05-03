@@ -85,7 +85,34 @@
     </tr>
   </table>
   
-  <h2>Estrutura do Projeto</h2> (Componentes)
+  <h2>Estrutura do Projeto</h2> 
+
+  📁 src
+├── 📁 components
+│   ├── Header.js
+│   ├── DescriptionSection.js
+│   ├── ProjectsSection.js
+│   ├── LanguageSelector.js
+│   └── Footer.js
+├── 📁 translations
+│   ├── messages_en.json
+│   ├── messages_pt.json
+│   ├── messages_es.json
+│   ├── messages_fr.json
+│   ├── messages_ru.json
+│   └── messages_jp.json
+├── 📁 scss
+│   └── global.scss
+└── App.js
+
+<ul>
+<li> src: É a pasta raiz do seu projeto.</li>
+<li> components: Contém os componentes reutilizáveis do seu aplicativo, como o cabeçalho, seção de descrição, seção de projetos, seletor de idioma e rodapé.</li>
+<li>translations: Armazena os arquivos de mensagens JSON para cada idioma suportado pelo seu aplicativo.</li>
+<li>scss: Contém arquivos de estilo, com destaque para o arquivo global.scss, que fornece estilos globais para o seu aplicativo.</li>
+<li>App.js: É o arquivo principal do seu aplicativo, onde você importa e compõe os componentes e define o provedor de internacionalização.</li>
+</ul>
+
 <ul>
   <li><strong>DescriptionSection:</strong> Esta seção contém a apresentação pessoal e habilidades técnicas, juntamente com links para GitHub e LinkedIn. Também inclui uma imagem do autor.</li>
   <li><strong>Footer:</strong> Aqui encontramos informações de rodapé, incluindo direitos autorais e mídias sociais.</li>
