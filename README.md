@@ -115,9 +115,9 @@
 └── App.js <br>
 
 <ul>
-<li> src: É a pasta raiz do seu projeto.</li>
+<li> src: É a pasta raiz do projeto.</li>
 <li> components: Contém os componentes reutilizáveis do seu aplicativo, como o cabeçalho, seção de descrição, seção de projetos, seletor de idioma e rodapé.</li>
-<li>translations: Armazena os arquivos de mensagens JSON para cada idioma suportado pelo seu aplicativo.</li>
+<li>translations: Armazena os arquivos de mensagens JSON para cada idioma suportado pelo aplicativo.</li>
 <li>scss: Contém arquivos de estilo, com destaque para o arquivo global.scss, que fornece estilos globais para o seu aplicativo.</li>
 <li>App.js: É o arquivo principal do seu aplicativo, onde você importa e compõe os componentes e define o provedor de internacionalização.</li>
 </ul>
@@ -137,7 +137,7 @@
   
   <h2>Utilização</h2>
   <p>Navegue pelo site e conheça alguns dos meus projetos e informações pessoais.<br>
-  Use o seletor de idioma para alternar entre português e inglês.</p>
+  Use o seletor de idioma para alternar entre português, inglês e outras línguas.</p>
   
   <h2>Contribuição</h2>
   <p>Contribuições são bem-vindas! Envie para o email <a href="mailto:danilooc1516@gmail.com">danilooc1516@gmail.com</a>.</p>
