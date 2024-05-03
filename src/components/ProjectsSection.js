@@ -7,6 +7,10 @@ import logoJump from '../img/logoJump.png';
 import logoiPulse from '../img/logoiPulse.png';
 import logoGonet from '../img/logoGonet.png';
 import logoFibra from '../img/logoFibra.png';
+import logoDgtv from '../img/logoDgtv.png';
+import logoElyt from '../img/logoElyt.png';
+import logoPrime from '../img/logoPrime.png';
+import logoPortal from '../img/logoPortal.png';
 
 import iconsjs from '../img/iconsjs.svg';
 import iconshtml from '../img/iconshtml.svg';
@@ -41,6 +45,7 @@ function ProjectsSection() {
 
         </div>
         </div>
+        <div className='container-cards'>
       <ProjectCard
         title={intl.formatMessage({ id: 'projectTitle1' })}
         imageUrl={logoJump}
@@ -69,6 +74,34 @@ function ProjectsSection() {
         description={intl.formatMessage({ id: 'projectDescription4' })}
       />
 
+<ProjectCard
+        title={intl.formatMessage({ id: 'projectTitle5' })}
+        imageUrl={logoElyt}
+        projectUrl="https://www.elytengenharia.com.br"
+        description={intl.formatMessage({ id: 'projectDescription5' })}
+      />
+
+<ProjectCard
+        title={intl.formatMessage({ id: 'projectTitle6' })}
+        imageUrl={logoPortal}
+        projectUrl="https://portalaluminio.com"
+        description={intl.formatMessage({ id: 'projectDescription6' })}
+      />
+
+<ProjectCard
+        title={intl.formatMessage({ id: 'projectTitle7' })}
+        imageUrl={logoDgtv}
+        projectUrl="https://dgnetsp.tv.br"
+        description={intl.formatMessage({ id: 'projectDescription7' })}
+      />
+
+<ProjectCard
+        title={intl.formatMessage({ id: 'projectTitle8' })}
+        imageUrl={logoPrime}
+        projectUrl="https://primeclinestetica.com.br"
+        description={intl.formatMessage({ id: 'projectDescription8' })}
+      />
+</div>
     </section>
   );
 }
