@@ -85,7 +85,7 @@
     </tr>
   </table>
   
-  <h2>Estrutura do Projeto</h2>
+  <h2>Estrutura do Projeto</h2> (Componentes)
 <ul>
   <li><strong>DescriptionSection:</strong> Esta seção contém a apresentação pessoal e habilidades técnicas, juntamente com links para GitHub e LinkedIn. Também inclui uma imagem do autor.</li>
   <li><strong>Footer:</strong> Aqui encontramos informações de rodapé, incluindo direitos autorais e mídias sociais.</li>
