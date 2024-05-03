@@ -6,7 +6,6 @@ Meu portfólio é uma demonstração do meu trabalho como desenvolvedor web, uti
 
 # Requisitos de Sistema
 Node.js: Certifique-se de ter o Node.js instalado.
-
 Navegador Web: Utilize um navegador moderno como Google Chrome, Mozilla Firefox ou Microsoft Edge.
 
 # Instalação
