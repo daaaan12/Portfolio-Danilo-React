@@ -112,7 +112,7 @@
 │   └── projectcard.scss <br>
 │   └── messages_jp.json <br>
 
-└── App.js <br>
+└─ App.js <br>
 
 <ul>
 <li> src: É a pasta raiz do projeto.</li>
