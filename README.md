@@ -59,6 +59,18 @@
       <td>Instala o pacote React Intl</td>
     </tr>
   </table>
+    <br>
+      <p>SCSS: Utilizado para estilização do projeto.</p>
+  <table>
+    <tr>
+      <th>Comando</th>
+      <th>Descrição</th>
+    </tr>
+    <tr>
+      <td>npm install -g sass</td>
+      <td>Instala o pacote SASS</td>
+    </tr>
+  </table>
   
   <h2>Execução</h2>
   <p>Iniciar Servidor de Desenvolvimento:</p>
