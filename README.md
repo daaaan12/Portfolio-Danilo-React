@@ -104,7 +104,8 @@
   Use o seletor de idioma para alternar entre português e inglês.</p>
   
   <h2>Contribuição</h2>
-  <p>Contribuições são bem-vindas! Envie para o email "danilooc1516@gmail.com"</p>
+  <p>Contribuições são bem-vindas! Envie para o email <a href="mailto:danilooc1516@gmail.com">danilooc1516@gmail.com</a>.</p>
+
 </div>
 </body>
 
