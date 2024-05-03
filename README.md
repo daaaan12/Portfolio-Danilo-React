@@ -100,7 +100,7 @@
 
   
   <h2>Utilização</h2>
-  <p>Explore as diferentes seções do site para ver os projetos e informações pessoais.<br>
+  <p>Navegue pelo site e conheça alguns dos meus projetos e informações pessoais.<br>
   Use o seletor de idioma para alternar entre português e inglês.</p>
   
   <h2>Contribuição</h2>
