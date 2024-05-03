@@ -122,6 +122,8 @@
 <li>App.js: É o arquivo principal do seu aplicativo, onde você importa e compõe os componentes e define o provedor de internacionalização.</li>
 </ul>
 
+<h2>Componentes</h2>
+
 <ul>
   <li><strong>DescriptionSection:</strong> Esta seção contém a apresentação pessoal e habilidades técnicas, juntamente com links para GitHub e LinkedIn. Também inclui uma imagem do autor.</li>
   <li><strong>Footer:</strong> Aqui encontramos informações de rodapé, incluindo direitos autorais e mídias sociais.</li>
