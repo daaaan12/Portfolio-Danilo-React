@@ -7,13 +7,21 @@
     "projectDescription2": "iPulse est une agence de marketing dédiée à stimuler le succès en ligne de ses clients. Offrant une gamme complète de services, de la construction de sites Web à des stratégies de marketing digital, trafic payant, identité visuelle, enregistrement de marque et gestion des médias sociaux. iPulse s'engage à fournir des solutions personnalisées qui élèvent la présence en ligne et l'efficacité des stratégies marketing pour les entreprises de toutes tailles.",
     "projectDescription3": "Le site de Go-net Fibra a été conçu pour offrir aux clients de la région nord-est du Brésil une expérience intuitive lors de l'exploration et du choix parmi les différents plans Internet, de téléphonie et combinés, y compris la télévision. Axé sur Maceió, le site offre une vision transparente et détaillée des services offerts, permettant aux abonnés de faire des choix éclairés sur leurs besoins de connectivité.",
     "projectDescription4": "Le site de Fibra Speed ​​s'adresse aux clients dans des zones spécifiques de Campinas, Monte Mor et Hortolândia, offrant une plateforme facile à utiliser pour visualiser les différents plans Internet, de téléphonie et combinés, y compris la télévision, disponibles dans la région de São Paulo. Avec un design intuitif, le site offre des informations complètes pour aider les abonnés à choisir le service répondant le mieux à leurs besoins de connectivité dans la région de São Paulo.",
-    
+    "projectDescription5": "Le projet Elyt a été développé pour une entreprise d'ingénierie électrique, couvrant des services tels que l'énergie solaire, l'assemblage de sous-stations, les projets électriques, et bien plus encore. Une addition notable au site Web était la calculatrice d'énergie solaire, réalisée avec JavaScript, qui permet aux utilisateurs de calculer combien de panneaux sont nécessaires pour générer les kWh correspondants à leur consommation.",
+    "projectDescription6": "Portal Alumínio est une entreprise du Pará spécialisée dans la vente de cadres, verre, portes, fenêtres, garde-corps et une variété d'autres produits. Nous avons développé un site Web présentant diverses images de l'entreprise, offrant une section pour les projets et un catalogue complet avec tous les produits disponibles.",
+    "projectDescription7": "DGTV était une page créée pour un fournisseur d'accès Internet qui voulait une plateforme exclusive pour présenter ses forfaits de chaînes de télévision et ses options à la carte. Cette page était liée au site principal de DGnetSP.",
+    "projectDescription8": "Prime Cline est une clinique esthétique qui propose divers services liés aux soins esthétiques. La page a été développée pour faciliter la visualisation de toutes les procédures esthétiques proposées par l'entreprise et fournir des informations sur ses services et sa mission.",
+
     "projectTitle": "MES PROJETS",
     "projectTitle1": "Jump Indoor Park",
     "projectTitle2": "iPulse",
     "projectTitle3": "Go-Net Fibra",
     "projectTitle4": "Fibra Speed",
-    
+    "projectTitle5": "Elyt Engenharia",
+    "projectTitle6": "Portal Alumínio",
+    "projectTitle7": "DGTV",
+    "projectTitle8": "Prime Clin",
+
     "rightsReserved": "Tous droits réservés",
     "authorName": "Danilo Costa de Oliveira"
     }
