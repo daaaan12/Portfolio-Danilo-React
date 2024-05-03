@@ -1,10 +1,16 @@
+
 .secao-projetos {
-
     width: 100%;
-  
- }
+    
+}
 
- .card-skill img:hover{
+.container-skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card-skill img:hover {
     transform: scale(1.5);
- }
- 
+}

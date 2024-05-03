@@ -118,10 +118,10 @@
 │   ├── global.scss <br>
 │   ├── descriptionsection.scss <br>
 │   ├── footer.scss <br>
-│   ├── header.css <br>
+│   ├── header.scss <br>
 │   ├── languageselector.scss <br>
 │   └── projectcard.scss <br>
-│   └── messages_jp.json <br>
+│   └── messages_jp.scss <br>
 
 └─ App.js <br>
 

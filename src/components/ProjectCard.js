@@ -14,9 +14,9 @@ function ProjectCard({ title, imageUrl, projectUrl, description }) {
           <h2><a href={projectUrl}>{title}</a></h2>
           <div style={{ color: 'black' }}>
        
-            <span className="badge-js">JavaScript</span>
-            <span className="badge-html">HTML</span>
-            <span className="badge-css">CSS</span>
+            <span className="badge badge-js">JavaScript</span>
+            <span className="badge badge-html">HTML</span>
+            <span className="badge badge-css">CSS</span>
          
           </div>
         </div>

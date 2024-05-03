@@ -3,17 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Libre+Baskerville:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Libre+Baskerville:wght@700&family=Mukta:wght@200&display=swap');
 
+// Estilo para links
 a {
    text-decoration: none;
    color: white;
+
+   &:hover {
+      color: red;
+   }
 }
 
-a:hover {
-   color: red;
-}
 
 body {
- 
    background-color: rgb(4, 16, 70);
    display: flex;
    width: 100%;
@@ -21,22 +22,15 @@ body {
    align-items: center;
    font-family: 'Kanit', sans-serif;
 
-}
 
-main {
-  
-   width: 60%;
-   height: 100%;
-   color: white;
-
-}
-
-
-/* VERSÂO MOBILE */
-
-@media (max-width: 900px) {
    main {
-       width: 80%;
+      width: 60%;
+      height: 100%;
+      color: white;
+
+    
+      @media (max-width: 900px) {
+         width: 80%;
+      }
    }
-  
 }

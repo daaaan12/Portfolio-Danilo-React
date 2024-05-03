@@ -1,61 +1,58 @@
+
 .secao-header {
-    width: 100%;
-    border-radius: 0.5rem;
-    color: white;
- 
- }
- 
- .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
- }
+   width: 100%;
+   border-radius: 0.5rem;
+   color: white;
 
- .container-logo {
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-   
- }
+   // Container flexível
+   .container {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
 
- .container-icone {
+       // Estilos para o logotipo
+       .container-logo {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
 
-   display: flex;
+       // Estilos para ícones
+       .container-icone {
+           display: flex;
+       }
+   }
 }
 
-
-/* VERSÂO MOBILE */
 
 @media (max-width: 900px) {
-
-   .container {
-      width: 100%;
+   .secao-header {
+       .container {
+           width: 100%;
+       }
    }
-
 }
 
+
 @media (max-width: 635px) {
+   .secao-header {
+      
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
 
-  .secao-header {
+     
+       .container {
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+       }
 
-   display: flex;
-   flex-direction: column;
-   flex-direction: center;
-   align-items: center;
-   
-  }
-
-  .container {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-  }
-
-  .container-icone {
-   margin-bottom: 2rem;
-  }
-
+      
+       .container-icone {
+           margin-bottom: 2rem;
+       }
+   }
 }

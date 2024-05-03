@@ -25,7 +25,7 @@ function ProjectsSection() {
   return (
     <section className="secao-projetos">
      
-        <div className='container'>
+        <div className='container-skill'>
         <h2 className="titulo-projetos">{intl.formatMessage({ id: 'projectTitle' })}</h2>
         <div className="card-skill"> 
           <img src={iconsjs} alt="Icone JavaScript" width={30} />
