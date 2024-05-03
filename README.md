@@ -71,6 +71,17 @@
       <td>Instala o pacote SASS</td>
     </tr>
   </table>
+        <p>React-icons: Fornece ícones para uso em aplicativos React.</p>
+  <table>
+    <tr>
+      <th>Comando</th>
+      <th>Descrição</th>
+    </tr>
+    <tr>
+      <td>npm install react-icons --save</td>
+      <td>Instala o react-icons</td>
+    </tr>
+  </table>
   
   <h2>Execução</h2>
   <p>Iniciar Servidor de Desenvolvimento:</p>
