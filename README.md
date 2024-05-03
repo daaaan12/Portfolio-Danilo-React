@@ -18,8 +18,8 @@
       <th>Descrição</th>
     </tr>
     <tr>
-      <td>git clone https://github.com/seu-usuario/seu-projeto.git</td>
-      <td>Clona o repositório do GitHub para o seu computador</td>
+      <td>git clone https://github.com/daaaan12/Portfolio-Danilo-React.git</td>
+      <td style="font-size: 0.8rem;">Clona o repositório do GitHub para o seu computador</td>
     </tr>
   </table>
   
