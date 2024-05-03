@@ -1,0 +1,21 @@
+{
+    "welcome": "Seja bem-vindo(a). É um prazer recebê-lo(a) aqui.",
+    "hello": "Olá, meu nome é Danilo Costa de Oliveira.",
+    "skills": "Possuo habilidades técnicas em JavaScript, HTML, CSS e familiaridade com frameworks como React. Busco utilizar meus conhecimentos para contribuir com o desenvolvimento de projetos e crescer profissionalmente na área de programação.",
+    
+    "projectDescription1": "O site Jump Indoor Park foi cuidadosamente desenvolvido para oferecer aos visitantes uma experiência envolvente, destacando as emocionantes atrações do parque de trampolins. Além de proporcionar uma visão cativante das instalações, o site oferece uma plataforma fácil para os clientes comprarem ingressos online, garantindo conveniência e rapidez na participação das atividades do parque.",
+    "projectDescription2": "A iPulse é uma agência de marketing dedicada a impulsionar o sucesso online de seus clientes. Oferecendo uma gama abrangente de serviços, desde a construção de websites até estratégias de marketing digital, tráfego pago, identidade visual, registro de marca e gerenciamento de redes sociais. A iPulse compromete-se a fornecer soluções personalizadas que elevam a presença online e a eficácia das estratégias de marketing para empresas de todos os tamanhos.",
+    "projectDescription3": "O site da Go-net Fibra foi projetado para oferecer aos clientes da região nordeste do Brasil uma experiência intuitiva ao explorar e escolher entre os diversos planos de internet, telefonia e combos, incluindo TV. Com foco em Maceió, o site proporciona uma visão transparente e detalhada dos serviços oferecidos, permitindo que os assinantes façam escolhas informadas sobre suas necessidades de conectividade.",
+    "projectDescription4": "O site da Fibra Speed atende aos clientes nas áreas específicas de Campinas, Monte Mor e Hortolândia, proporcionando uma plataforma fácil de usar para visualizar os diversos planos de internet, telefonia e combos, incluindo TV, disponíveis na região de São Paulo. Com um design intuitivo, o site oferece informações abrangentes para auxiliar os assinantes na escolha do serviço que melhor atenda às suas necessidades de conectividade na região paulista.",
+
+    "projectTitle": "MEUS PROJETOS",
+    "projectTitle1": "Jump Indoor Park",
+    "projectTitle2": "iPulse",
+    "projectTitle3": "Go-Net Fibra",
+    "projectTitle4": "Fibra Speed",
+
+    "rightsReserved": "Todos os direitos reservados",
+    "authorName": "Danilo Costa de Oliveira"
+
+}
+  

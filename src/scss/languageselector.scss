@@ -1,0 +1,14 @@
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   }
+
+.top button {
+    background: none;
+    border: none;
+}
+.top button:hover {
+    transform: scale(1.2);
+}

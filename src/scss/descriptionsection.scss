@@ -1,0 +1,44 @@
+.secao-descricao {
+  
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .container-descricao {
+    width: 60%;
+ }
+ .container-descricao h2 {
+    
+    font-family: 'Libre Baskerville', serif;
+ }
+
+ .icones-sociais {
+    padding: 1rem;
+    font-size: 2rem;
+ }
+ 
+ .icones-sociais:hover {
+    transform: scale(1.2);
+ }
+
+ /* VERSÂO MOBILE */
+
+
+@media (max-width: 635px) {
+
+  .secao-descricao {
+   display: flex;
+   flex-direction: column-reverse;
+   
+  }
+
+  .container-descricao {
+   width: 100%;
+   text-align: center;
+   
+  }
+
+}
+ 

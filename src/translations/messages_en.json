@@ -1,0 +1,19 @@
+{
+  "welcome": "Welcome. It's a pleasure to have you here.",
+  "hello": "Hello, my name is Danilo Costa de Oliveira.",
+  "skills": "I have technical skills in JavaScript, HTML, CSS, and familiarity with frameworks like React. I seek to use my knowledge to contribute to project development and grow professionally in the programming field.",
+  
+  "projectDescription1": "The Jump Indoor Park website has been carefully developed to provide visitors with an engaging experience, showcasing the exciting attractions of the trampoline park. In addition to offering a captivating view of the facilities, the website provides an easy platform for customers to purchase tickets online, ensuring convenience and speed in participating in the park's activities.",
+  "projectDescription2": "iPulse is a marketing agency dedicated to boosting the online success of its clients. Offering a comprehensive range of services, from building websites to digital marketing strategies, paid traffic, visual identity, trademark registration, and social media management. iPulse is committed to providing customized solutions that enhance online presence and the effectiveness of marketing strategies for businesses of all sizes.",
+  "projectDescription3": "The Go-net Fibra website is designed to offer customers in the northeastern region of Brazil an intuitive experience when exploring and choosing from the various internet, telephony, and combo plans, including TV. With a focus on Maceió, the site provides a transparent and detailed view of the services offered, allowing subscribers to make informed choices about their connectivity needs.",
+  "projectDescription4": "The Fibra Speed website serves customers in specific areas of Campinas, Monte Mor, and Hortolândia, providing an easy-to-use platform to view the various internet, telephony, and combo plans, including TV, available in the São Paulo region. With an intuitive design, the site offers comprehensive information to assist subscribers in choosing the service that best meets their connectivity needs in the São Paulo region.",
+  
+  "projectTitle": "MY PROJECTS",
+  "projectTitle1": "Jump Indoor Park",
+  "projectTitle2": "iPulse",
+  "projectTitle3": "Go-Net Fibra",
+  "projectTitle4": "Fibra Speed",
+  
+  "rightsReserved": "All rights reserved",
+  "authorName": "Danilo Costa de Oliveira"
+}

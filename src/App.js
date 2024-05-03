@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { IntlProvider } from 'react-intl';
+import Header from './components/Header';
+import DescriptionSection from './components/DescriptionSection';
+import ProjectsSection from './components/ProjectsSection';
+import LanguageSelector from './components/LanguageSelector';
+import Footer from './components/Footer';
+import messages_en from './translations/messages_en.json';
+import messages_pt from './translations/messages_pt.json';
+
+import './scss/global.scss';
 
 function App() {
+  const [locale, setLocale] = useState('pt');
+  const messages = locale === 'pt' ? messages_pt : messages_en;
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <IntlProvider locale={locale} messages={messages}>
+      <body>
+        <main>
+          <LanguageSelector setLocale={setLocale} />
+          <header>
+            <Header />
+          </header>
+          <section>
+            <DescriptionSection />
+          </section>
+          <ProjectsSection />
+          <Footer />
+        </main>
+      </body>
+    </IntlProvider>
   );
 }
 
