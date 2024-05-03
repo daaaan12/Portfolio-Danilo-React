@@ -104,7 +104,7 @@
   Use o seletor de idioma para alternar entre português e inglês.</p>
   
   <h2>Contribuição</h2>
-  <p>Contribuições são bem-vindas! Abra uma issue ou envie um pull request no GitHub.</p>
+  <p>Contribuições são bem-vindas! Envie para o email "danilooc1516@gmail.com"</p>
 </div>
 </body>
 
