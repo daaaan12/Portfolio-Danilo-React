@@ -14,3 +14,10 @@
 .card-skill img:hover {
     transform: scale(1.5);
 }
+
+@media (max-width: 700px) {
+    .container-skill {
+        display: flex;
+        flex-direction: column;
+    }
+}
