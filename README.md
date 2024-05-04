@@ -82,6 +82,17 @@
       <td>Instala o react-icons</td>
     </tr>
   </table>
+ <p>Google Tag Manager: Permite gerenciar e implantar tags de rastreamento em um site ou aplicativo.</p>
+  <table>
+    <tr>
+      <th>Comando</th>
+      <th>Descrição</th>
+    </tr>
+    <tr>
+      <td>npm install react-gtm-module</td>
+      <td>Instala o GTM</td>
+    </tr>
+  </table>
   
   <h2>Execução</h2>
   <p>Iniciar Servidor de Desenvolvimento:</p>
