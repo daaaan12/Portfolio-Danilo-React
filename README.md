@@ -2,7 +2,7 @@
 <body>
 <div class="container">
   <h1>Sobre o Projeto</h1>
-  <p>Meu portfólio é uma demonstração do meu trabalho como desenvolvedor web, utilizando React, SCSS e React Intl. Destaca habilidades e projetos com uma experiência de usuário dinâmica e internacionalização integrada.</p>
+  <p>Meu portfólio é uma demonstração do meu trabalho como desenvolvedor web, utilizando React, SCSS e React Intl. Destaca habilidades e projetos com uma internacionalização integrada.</p>
   
   <h1>Documentação do Projeto</h1>
   
