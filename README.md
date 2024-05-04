@@ -71,6 +71,7 @@
       <td>Instala o pacote SASS</td>
     </tr>
   </table>
+    <br>
         <p>React-icons: Fornece ícones para uso em aplicativos React.</p>
   <table>
     <tr>
@@ -82,6 +83,7 @@
       <td>Instala o react-icons</td>
     </tr>
   </table>
+    <br>
  <p>Google Tag Manager: Permite gerenciar e implantar tags de rastreamento em um site ou aplicativo.</p>
   <table>
     <tr>
