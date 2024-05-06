@@ -1,10 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { IntlProvider } from 'react-intl';
+import TagManager from 'react-gtm-module';
+
 import Header from './components/Header';
 import DescriptionSection from './components/DescriptionSection';
 import ProjectsSection from './components/ProjectsSection';
 import LanguageSelector from './components/LanguageSelector';
 import Footer from './components/Footer';
+
 import messages_en from './translations/messages_en.json';
 import messages_pt from './translations/messages_pt.json';
 import messages_es from './translations/messages_es.json';
@@ -39,22 +42,62 @@ function App() {
       break;
   }
 
+  useEffect(() => {
+    // Função para enviar um evento personalizado para o dataLayer
+    const sendCustomEvent = (eventName, eventData) => {
+      // Verifica se o dataLayer está disponível
+      if (window.dataLayer) {
+        // Envia o evento personalizado para o dataLayer
+        window.dataLayer.push({
+          event: eventName,
+          ...eventData,
+        });
+      } else {
+        console.error('O dataLayer não está disponível.');
+      }
+    };
+
+    // Configuração do Google Tag Manager
+    const tagManagerArgs = {
+      gtmId: 'G-DJCLD5YB2R', // Seu ID de propriedade do Google Tag Manager
+    };
+    
+    // Inicialização do Google Tag Manager
+    TagManager.initialize(tagManagerArgs);
+
+    // Exemplo de envio de um evento personalizado para o dataLayer
+    sendCustomEvent('page_view', {
+      pagePath: window.location.pathname,
+      pageTitle: document.title,
+      pageLocale: locale,
+    });
+  }, [locale]);
+
   return (
     <body>
       <main>
+
         <IntlProvider locale={locale} messages={messages}>
-          <div>
             <LanguageSelector setLocale={setLocale} />
+
             <header>
               <Header />
             </header>
+
             <section>
               <DescriptionSection />
             </section>
+            
+            <section>
             <ProjectsSection />
+            </section>
+
+            <footer>
             <Footer />
-          </div>
+            </footer>
+
         </IntlProvider>
+
       </main>
     </body>
   );

@@ -7,6 +7,7 @@ import DaniloBoneco from '../img/DaniloBoneco.png'
 import '../scss/descriptionsection.scss'
 import { AiOutlineFilePdf } from 'react-icons/ai'
 
+
 function DescriptionSection () {
   const intl = useIntl()
 
@@ -23,17 +24,17 @@ function DescriptionSection () {
           {intl.formatMessage({ id: 'skills' })}
         </p>
         <div className='container-sociais'>
-          <a href='https://github.com/daaaan12'>
+          <a href='https://github.com/daaaan12' data-tip="Acesso ao Github"> 
             <i className='icones-sociais '>
               <AiFillGithub />
             </i>
           </a>
-          <a href='https://www.linkedin.com/in/danilo-costa-de-oliveira-66413a22b/'>
+          <a href='https://www.linkedin.com/in/danilo-costa-de-oliveira-66413a22b/' data-tip="Acesso ao Linkedin">
             <i className='icones-sociais'>
               <AiFillLinkedin />
             </i>
           </a>
-          <a href='/curriculoDanilo.pdf' download='curriculoDanilo.pdf'>
+          <a href='/curriculoDanilo.pdf' download='curriculoDanilo.pdf' data-tip="Download Curriculo">
             <i className='icones-sociais' alt='Icone Curriculum'>
               <AiOutlineFilePdf />
             </i>
