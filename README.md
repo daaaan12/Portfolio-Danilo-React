@@ -2,7 +2,7 @@
 <body>
 <div class="container">
   <h1>Sobre o Projeto</h1>
-  <p>Meu portfólio é uma demonstração do meu trabalho como desenvolvedor web, utilizando React, SCSS e React Intl. Destaca habilidades e projetos com uma experiência de usuário dinâmica e internacionalização integrada.</p>
+  <p>Meu portfólio é uma demonstração do meu trabalho como desenvolvedor web, utilizando React, SCSS e React Intl. Destaca habilidades e projetos com uma internacionalização integrada.</p>
   
   <h1>Documentação do Projeto</h1>
   
@@ -71,6 +71,7 @@
       <td>Instala o pacote SASS</td>
     </tr>
   </table>
+    <br>
         <p>React-icons: Fornece ícones para uso em aplicativos React.</p>
   <table>
     <tr>
@@ -80,6 +81,18 @@
     <tr>
       <td>npm install react-icons --save</td>
       <td>Instala o react-icons</td>
+    </tr>
+  </table>
+    <br>
+ <p>Google Tag Manager: Permite gerenciar e implantar tags de rastreamento em um site ou aplicativo.</p>
+  <table>
+    <tr>
+      <th>Comando</th>
+      <th>Descrição</th>
+    </tr>
+    <tr>
+      <td>npm install react-gtm-module</td>
+      <td>Instala o GTM</td>
     </tr>
   </table>
   
