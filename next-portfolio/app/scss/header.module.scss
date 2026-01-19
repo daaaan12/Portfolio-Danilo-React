@@ -1,0 +1,57 @@
+.secao-header {
+    width: 100%;
+    border-radius: 0.5rem;
+    color: var(--text-primary);
+
+    // Container flexível
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        // Estilos para o logotipo
+        .container-logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        // Estilos para ícones
+        .container-icone {
+            display: flex;
+        }
+    }
+}
+
+
+@media (max-width: 900px) {
+    .secao-header {
+        .container {
+            width: 100%;
+        }
+    }
+}
+
+
+@media (max-width: 635px) {
+    .secao-header {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .container-icone {
+            margin-bottom: 2rem;
+        }
+    }
+}

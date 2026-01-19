@@ -1,0 +1,17 @@
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    button {
+        background: none;
+        border: none;
+
+       
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
