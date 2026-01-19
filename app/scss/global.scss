@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&family=Libre+Baskerville:wght@400;700&display=swap');
+
+a {
+   text-decoration: none;
+   color: inherit;
+   transition: color 0.3s ease;
+
+   &:hover {
+      color: var(--accent-color);
+   }
+}
+
+:root {
+   --bg-primary: #0a0a0a;
+   --text-primary: #ededed;
+   --accent-color: #3b82f6;
+   /* Modern Blue */
+   --card-bg: rgba(255, 255, 255, 0.05);
+   /* Ultra subtle glass */
+   --card-border: rgba(255, 255, 255, 0.1);
+   --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+   --font-kanit: 'Kanit', sans-serif;
+   --font-serif: 'Libre Baskerville', serif;
+
+   --bg-gradient-start: rgba(59, 130, 246, 0.15);
+   --bg-gradient-end: rgba(139, 92, 246, 0.1);
+
+   --icon-filter: grayscale(100%);
+   --icon-hover-filter: grayscale(0%);
+}
+
+[data-theme='light'] {
+   --bg-primary: #f8fafc;
+   /* Cooler, brighter white */
+   --text-primary: #1e293b;
+   /* Slate 800 for better contrast */
+   --accent-color: #2563eb;
+   --card-bg: rgba(255, 255, 255, 0.65);
+   /* More opaque */
+   --card-border: rgba(0, 0, 0, 0.08);
+   /* Slightly clearer border */
+   --glass-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+   /* Softer shadow */
+
+   --bg-gradient-start: rgba(59, 130, 246, 0.08);
+   /* Very subtle blue */
+   --bg-gradient-end: rgba(139, 92, 246, 0.08);
+   /* Very subtle purple */
+
+   --icon-filter: grayscale(100%) brightness(0.4) contrast(1.2);
+   /* Make icons dark grey */
+   --icon-hover-filter: grayscale(0%);
+}
+
+body {
+   background-color: var(--bg-primary);
+   background-image: radial-gradient(circle at 50% 0%, var(--bg-gradient-start) 0%, transparent 50%),
+      radial-gradient(circle at 100% 0%, var(--bg-gradient-end) 0%, transparent 40%);
+   background-attachment: fixed;
+   color: var(--text-primary);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   justify-content: flex-start;
+   min-height: 100vh;
+   margin: 0;
+   font-family: var(--font-kanit);
+   overflow-x: hidden;
+
+   main {
+      width: 100%;
+      max-width: 1300px;
+      padding: 4rem 2rem;
+      box-sizing: border-box;
+
+      @media (max-width: 900px) {
+         padding: 1rem;
+      }
+   }
+}
+
+html {
+   scroll-behavior: smooth;
+}

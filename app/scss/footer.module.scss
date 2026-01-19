@@ -1,0 +1,15 @@
+.container-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+
+
+  @media (max-width: 635px) {
+    text-align: center;
+    display: flex;
+    flex-direction: column !important;
+    margin-bottom: 1rem;
+  }
+}
